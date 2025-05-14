@@ -17,7 +17,6 @@ public class Api {
         } catch (IOException | InterruptedException e) {
             throw new RuntimeException(e);
         }
-        System.out.println(response.body());
         return response.body();
     }
 }
